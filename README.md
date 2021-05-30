@@ -1,16 +1,24 @@
 ### Hi there 👋
+#### This is 135e2's github profile :)
+- Living in: :cn:
+- ArchLinux User
+- :point_right: Currently maintaining an ArchLinux repo mirror of [Liquorix Kernel](https://liquorix.net) for Chinese users
+- [Experimental]Now we use onedrive as the backend storage, which will be mirrored every 1 hour
+- You can add it manually to /etc/pacman.conf following [this](https://wiki.archlinux.org/title/Unofficial_user_repositories#liquorix):
+>[liquorix]  
+Server = https://mirror.135e2.eu.org/onedrive-mirror/liquorix-archlinux
 
-<!--
-**135e2/135e2** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- Anyway, you can stick with the old repo too (which will be synced every 6 hours):
+>[liquorix]  
+Server = https://mirror.135e2.eu.org/archlinux/$repo/$arch  
 
-Here are some ideas to get you started:
+And also my own repo:
+* Import PGP Key:  
+`pacman-key -r 5443E4D4C99F250F --keyserver keys.openpgp.org`
+* Trust it:  
+`pacman-key --lsign-key 5443E4D4C99F250F --keyserver keys.openpgp.org`
+>[135e2]  
+Server = https://mirror.135e2.eu.org/archlinux/$repo/$arch  
+#SigLevel = Never
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[![135e2's GitHub stats](https://github-readme-stats.vercel.app/api?username=135e2&theme=vue&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
