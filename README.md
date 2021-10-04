@@ -21,4 +21,4 @@ And also my own repo:
 Server = https://mirror.135e2.eu.org/archlinux/$repo/$arch  
 #SigLevel = Never
 
-[![135e2's GitHub stats](https://github-readme-stats.vercel.app/api?username=135e2&theme=vue&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+[![135e2's GitHub stats](https://github-readme-stats-evb7m91js-135e2.vercel.app/api?username=135e2&theme=vue&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
